@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "test:unit": "vitest",
     "lint": "eslint . --fix",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "deploy": "git push",
+    "netlify:open": "netlify open:site"
   },
   "dependencies": {
     "vue": "^3.5.12"
