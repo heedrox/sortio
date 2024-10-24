@@ -25,10 +25,10 @@ const cards = [
   { suit: 'agua', number: 4, symbol: '*' },
   { suit: 'agua', number: 5, symbol: '' },
   // { suit: 'tierra', number: 1, symbol: '' },
-  { suit: 'tierra', numero: 2, symbol: '††' },
-  { suit: 'tierra', numero: 3, symbol: '†' },
-  { suit: 'tierra', numero: 4, symbol: '**' },
-  { suit: 'tierra', numero: 5, symbol: '' },
+  { suit: 'tierra', number: 2, symbol: '††' },
+  { suit: 'tierra', number: 3, symbol: '†' },
+  { suit: 'tierra', number: 4, symbol: '**' },
+  { suit: 'tierra', number: 5, symbol: '' },
 ]
 shuffle(cards)
 const instructions = [
